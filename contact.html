@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Knewave&family=Poppins:wght@300;700&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    </head>
+
+    <body>
+
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark navdark">
+            <div class="container-fluid menunav">
+                <div class="navbar-header">
+                    <a class="navbar-brand hachi" href="http://google.com">Hachi</a>
+                </div>                          
+                    <ul class="nav navbar-nav darktheme">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a class="nav" href="menu.html">Menu</a></li>
+                    <li><a class="nav" href="contact.html">Contact</a></li>
+                    <li><a class="nav" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav" href="aboutus.html">About us</a></li>
+                  </ul>
+                
+            </div>
+        </nav>
+
+        <div class="container contact">
+
+            <!--Section: Contact-->
+    <section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4 contus">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5 questions">Do you have any questions about our restaurant or our delicious ramens ? Our team will come back to you within
+        a matter of hours to help you.</p>
+
+        <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="continfos">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="continfos">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="continfos">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" class="continfos">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="contside">Chaussée de Charleroi 1060 Saint-Gilles</p>
+                </li>
+
+                <li><i class="fa fa-phone" aria-hidden="true"></i>
+                    <p class="contside">+ 02 234 567 89</p>
+                </li>
+
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p class="contside">contact@hachibrussels.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+</div>
+
+
+        <!-- Footer -->
+        <footer class="footer navbar-fixed-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <div class="col-xs-2 col-md-3 col-lg-3">
+                        
+                            <a href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                            <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+                            <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+                        
+                    </div>
+                    <div class="col-xs-3 col-md-3 col-lg-6">BeCode©</div>
+                    <div class="col-xs-7 col-md-6 col-lg-3">101 Ch. de Charleroi 1060 Saint-Gilles</div>
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+
+</html>
